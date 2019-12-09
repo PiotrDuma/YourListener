@@ -1,4 +1,4 @@
-package com.github.PiotrDuma.YourListener.SecurityConfig;
+package com.github.PiotrDuma.YourListener.securityConfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

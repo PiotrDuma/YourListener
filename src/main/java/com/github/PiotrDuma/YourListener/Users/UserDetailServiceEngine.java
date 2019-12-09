@@ -1,4 +1,4 @@
-package com.github.PiotrDuma.YourListener.Users;
+package com.github.PiotrDuma.YourListener.users;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,12 +7,12 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserDetailServiceConfig implements UserDetailsService{
+public class UserDetailServiceEngine implements UserDetailsService{
 	
 	private UserRepository userRepository;
 	
 	@Autowired
-	UserDetailServiceConfig (UserRepository userRepository){
+	public UserDetailServiceEngine (UserRepository userRepository){
 		this.userRepository = userRepository;
 	}
 	

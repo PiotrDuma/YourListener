@@ -1,4 +1,4 @@
-package com.github.PiotrDuma.YourListener.Users;
+package com.github.PiotrDuma.YourListener.users;
 
 public enum Role {
 	USER("USER"),
@@ -11,7 +11,7 @@ public enum Role {
 		return role;
 	}
 
-	Role(String role) {
+	private Role(String role) {
 		this.role= role;
 	}	
 }
